@@ -38,7 +38,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        {this.state.arr.map(it => <Item task={it} />)}
+        {this.state.arr.map(it => <Item id={it.id} data={it.data} />)}
         <button onClick={this.handleClick}>ADD NEW EL</button>
       </div>
     )
