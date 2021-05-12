@@ -1,0 +1,27 @@
+label {
+  color: #7e7d7d;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+
+  &-theme-dark {
+    background-color: #121212;
+  }
+
+  &-theme-light {
+    background-image: url('../../images/background.png');
+  }
+}
+
+.radios {
+  align-self: flex-end;
+
+  padding: 50px 80px 0 0;
+
+  display: flex;
+  flex-direction: column;
+}
