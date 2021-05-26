@@ -1,0 +1,16 @@
+.layout {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.left-side {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid gray;
+}
+
+.right-side {
+  flex: 1;
+  padding: 20px;
+}

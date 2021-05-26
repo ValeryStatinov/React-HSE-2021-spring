@@ -1,0 +1,29 @@
+.post-preview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post-preview.day {
+  background-color: rgb(193, 224, 222);
+}
+
+.post-preview.night {
+  background-color: rgb(48, 46, 46);
+  color: rgb(81, 189, 71);
+}
+
+.img {
+  display: block;
+  margin-bottom: 20px;
+  max-height: 100px;
+  border-radius: 6px;
+}
+
+.body {
+  padding: 0 30px 20px;
+  white-space: pre-line;
+  word-break: break-all;
+  font-style: italic;
+  text-align: left;
+}
